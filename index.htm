@@ -187,9 +187,9 @@ fbq('track', 'PageView');
 				<li>Груша для накачування повітрям</li>
             </ul>-->
 
-  <div class="video-box">
+ <div class="video-box">
   <video autoplay muted loop playsinline>
-    <source src="../smorodina_files/w55.mp4" type="video/mp4">
+    <source src="smorodina_files/w55.mp4" type="video/mp4">
     Ваш браузер не підтримує відео.
   </video>
 </div>
@@ -198,22 +198,22 @@ fbq('track', 'PageView');
 .video-box {
   position: relative;
   width: 100%;
-  max-width: 400px;  /* можна змінювати розмір */
-  aspect-ratio: 1 / 1;  /* це робить точний квадрат */
+  max-width: 400px;  /* змінюй під свій дизайн */
+  aspect-ratio: 1 / 1; /* квадрат */
   overflow: hidden;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  margin: 0 auto;
+  margin: 20px auto;
+  background-color: #000; /* на випадок, якщо відео не завантажилось */
 }
 
 .video-box video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 </style>
-
-
 
 
 
